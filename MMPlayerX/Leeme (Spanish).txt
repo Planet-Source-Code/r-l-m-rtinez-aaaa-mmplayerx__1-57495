@@ -1,0 +1,225 @@
+                          __.__        ___/\____   ___  __/\__  
+            __/\__  _/\__ \    \ __.__/         \ /   \/  ____\
+           /      \/     \ |    \\    \   _     ||     \ /   ___
+          /  /\      /\   \/    / \    \ |_\___/ |     | \__/   |
+         |   \|     /     <    /__/    / _  _   <     /         \
+         |    /_____|    /_\          /    \_|  |\    \\____..__\
+         /__.___\ /________|/.__  __./\___  ____/ /_____\  __\/___  _____
+                                \/        \/     \/      \/       \/___  \ 
+                                          /  /\      /\   \  /\    \ _/ /
+                                         <   \|     /     |  \/____/|_   \
+                                         |    /_____|    /_\  \   .___|   \
+                                         /__.___\ /________|___\  |___  __/
+                                               .:smaller:but:work:.   \/ 
+                                     
+                          
+                          Music Mp3 Player X  - Version 2.0
+                         Copyright © 2004  by  Raúl Martínez
+
+                                                        
+                             [   S  P  A  N  I  S  H   ]
+
+                                     I N D I C E
+
+                       [--> ...qUE dIABLOS eS................]
+                       [--> ...fUNCIONAMIENTO................]
+                       [--> ...sKINS.........................]
+                       [--> ...lENGUAJES.....................]
+                       [--> ...aCERCA DE.....................]
+
+
+
+	§*¤*~`~*¤§*¤*~`~*¤§¤*~`~[ qUE dIABLOS eS ]~`~*¤§¤*~`~*¤§§*¤*~`~*¤§
+
+	   Music Mp3 Player X, busca, ordena y reproduce por medio de 
+	albums archivos mp3, wma, wav y muestra su caratula.
+	
+
+			 <<<  cARACTERISTICAS  >>>
+
+	· 100% Open Source.               · Analizador de Espectro.
+	· Reproduce mp3,wma,wav.          · Ecualizador 10 Bandas. 
+	· No Instalación.                 · Efectos de Sonido.   
+	· Soporte de Skins.               · Configuración de Albums.
+	· Soporte de Lenguajes.           · Control de Posición.
+	· Explorador de Albums.           · Control de Volumen. 
+	· Modo MiniMascara.               · Poner Carátula como Wallpaper. 
+	· Explorador de Carátulas.        · Suporte de Transparencia.
+	· Función Karaoke.                · Modo Intro.  
+	· Editor de Tags.                 · Función de Silencio.
+	· Diferentes Visualizaciones.     · Repetir track.
+	· Lista de Reproducción.          · Modo Aleatorio.
+	
+
+
+
+
+	§*¤*~`~*¤§*¤*~`~*¤§¤*~`~[ fUNCIONAMIENTO ]~`~*¤§¤*~`~*¤§§*¤*~`~*¤§
+ 
+ 	  Al ejecutar Music Mp3 Player X busca primero en el directorio 
+	donde es colocado y en todos sus subdirectorios buscando archivos 
+	mp3s, wma, wav, al encontrar 1 o mas archivos se le asigna como un 
+	álbum [capacidad de albums ilimitados, configuración de albums visi 
+	bles], si se encuentra en el directorio una imagen .bmp o .jpg que
+        contenga alguna de las palabras [*caratula*], [*portada*], [*front*]
+        [*frt*] sera asignada como caratula del álbum.  
+
+	   Puedes utilizar la aplicación para que reproduzca tus discos de 
+	mp3s como autorun o reproducir directamente de tu disco duro.
+	
+
+
+
+
+	   §*¤*~`~*¤§*¤*~`~*¤§¤*~`~[ sKINS ]~`~*¤§¤*~`~*¤§§*¤*~`~*¤§
+
+	   Los archivos del skin deben de estar en un sub fólder en:
+
+	   [Trayectoria de Configuración]\Skins\, donde trayectoria de 
+	configuración se configura por medio de opciones desde la 
+	aplicación, el nombre del fólder será tomado como el nombre del 
+	skin.
+        
+	   ejemplo: 
+
+	    AppConfig=C:\     
+ 
+ 	    + AppConfig [folder]
+	    +----------\Skins  [folder]
+	    +----------------\NombreSkin [folder]
+	    +---------------------------\Archivos Skin
+
+	   La configuración del skin: color transparente, posicion y color 
+	de los labels debe de estar en el archivo [skin.ini], junto con 
+	los archivos de imagen del skin.
+	
+
+ 		<<<  Archivos de skin necesarios  solo .bmp  >>>
+
+                	      <<< NORMAL MODE >>>
+     
+	· main             > Imagen principal en normal mode.
+	· payer_buttons    > Botones de reproduccion.
+	· options_buttons  > Botones intro, mute, repeat, randomize.
+	· albums_buttons   > Botones de anterior, caratula y siguiente Album.
+	· titlebar_buttons > Botones de Menu,Minimizar,Mini,Cerrar.
+	· albums_picture   > Imagen de los albums reproduciendo.
+	· posbar_slider    > Slider de posición de reproducción.
+	· volbar_slider    > Slider volumen.
+	· Listbar_slider   > Slider para la lista de reproducción.
+	· song_font        > Fuente para titulo actual.
+	· num_font         > Fuente para tiempo transcurrido.
+	· songinfo_font    > Fuente para Kbsp, Hz.
+
+
+
+			      <<< MINI MODE >>>
+
+	· minimode                  > Imagen principal MiniMode.
+	· payer_minimode_buttons    > Botones de reproducción.
+	· titlebar_minimode_buttons > Botones de Menu,Minimizar,Mini,Cerrar.
+	· posbar_minimode_slider    > Slider de posición de reproducción.
+	· volbar_minimode_slider    > Slider volumen.
+	· song_minimode_font        > Fuente para titulo actual.
+	· num_minimode_font         > Fuente para tiempo transcurrido.
+
+
+
+
+ 		  <<<  Archivos de cursores solo .cur  >>>
+
+                	      <<< NORMAL MODE >>>
+     
+	· curmain    > Cursor principal en normal mode.
+	· curbuttons > Cursor para todos los botones.
+	· curalbums  > Cursor para los albums.
+	· curposbar  > Cursor barra de progreso.
+	· curvolbar  > Cursor barra de volumen.
+	· curlistrep > Cursor lista de reproduccion.
+	· curlistbar > Cursor barra de la lista de reproduccion.
+
+
+
+			      <<< MINI MODE >>>
+
+	· curminimode         > Cursor principal MiniMode.
+	· curbuttons_minimode > Cursor botones de minimode.
+	· curposbar_minimode  > Cursor barra de progreso.
+	· curvolbar_minimode  > Cursor barra de volumen.
+	
+
+
+	Descarga mas skins de http://www.geocities.com/skoria_36
+	o construye tus propios skins con Makeskins.exe, descárgalo desde 
+	el sitio web.
+
+
+
+
+
+	 §*¤*~`~*¤§*¤*~`~*¤§¤*~`~[ lENGUAJES ]~`~*¤§¤*~`~*¤§§*¤*~`~*¤§     
+
+	   Los archivos de lenguaje tienen la extensión .lng, debe estar 
+	colocados en el fólder [Trayectoria de Configuración]\Language\, 
+	donde trayectoria de configuración se configura por medio de 
+	opciones desde la aplicación para ser leídos por la aplicación.
+ 
+	    Ejemplo: 
+
+	    AppConfig=C:\     
+ 
+ 	    + AppConfig [folder]
+	    +----------\Language  [folder]
+	    +-------------------\Archivos de Lenguajes [.lng]
+	
+
+	  Nota: No modificar, alterar el orden de las líneas ya que están 
+	en orden especifico para su lectura por la aplicación.
+
+
+
+
+ 
+	§*¤*~`~*¤§*¤*~`~*¤§¤*~`~[   aCERCA DE   ]~`~*¤§¤*~`~*¤§§*¤*~`~*¤§
+
+	   Nota: Music Mp3 Player X es realizado con fines educacionales, 
+	por lo tanto no podrás recompilar el código y después comercializ
+        arlo como otra aplicación sin mi permiso.
+
+	   Si quieres modificar este código y distribuirlo como código 
+	fuente o como programa compilado por favor contáctame a 
+	[escorpio36@hotmail.com] y respetando los derechos de autor antes 
+	de hacerlo.
+       
+	   Apreciare cualquier notificación de cualquier modificación 
+	siempre y cuando no intentes comercializarlo para obtener algún 
+	tipo de beneficio.
+
+	   Por ultimo si tienes alguna idea, comentario, sugerencia, bugs, 
+	dudas, quieres mas skin chidos visita la pagina web:
+
+	    [http://www.geocities.com/skoria_36] o mándame un mail.
+       
+	   He estado trabajando algo de tiempo en este proyecto y me 
+	gustaría saber tu opinión para saber si hay alguna razón para 
+	seguir publicándolo y agregarle algunas cosillas mas que tengo en 
+	mente...
+  
+           Esta la vista...  y...
+
+     
+	   +-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=+      
+	        Si NoS PinTaN CoMo UnOs GuEvOnEs, No Lo SoMoS ...    
+	                  ¡¡¡ ViVa MeXiCo KabRonEs !!!               
+	                 QuE Se SiEnTa El PoWeR MeXiCaNo...          
+	   +-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=+      
+
+
+	Music Mp3 Player X - Version 2.0
+	Copyright © 2003-2004
+	Desarrollado por Raúl Martínez
+	Agosto 2004
+	Valle de Santiago, Guanajuato, México
+	e-mail: escorpio36@hotmail.com
+	web: http://www.geocities.com/skoria_36
+     
