@@ -1,0 +1,22 @@
++-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
+   vISUALIZATION fILE fOR mUSIC mP3 pLAYER X     
++-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
+
+
+[Spectrum]
+BackColor=0
+BackColorBar=16777215
+BackColorPeak=16777215
+Bars=30
+DrawBars=Verdadero
+DrawPeaks=Verdadero
+DrawSource=1
+Exist=Verdadero
+Gradient=Fut_Mex.jpg
+GradientIndex=0
+ImageFile=[caratula]
+Mirrored=Verdadero
+PeakGravity=3
+PeakHeight=1
+ScaleUp=1
+Space=0
